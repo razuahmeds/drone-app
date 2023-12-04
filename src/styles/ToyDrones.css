@@ -1,0 +1,26 @@
+.drone-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.hr-details{
+    margin-left: 445px;
+        width: 18%;
+        margin-bottom: 35px;
+        color: #FF2B17;
+}
+.toyDrones-content{
+    background-color: #fffafa;
+}
+
+
+.text-content{
+    margin: 0px 80px;
+}
+.text{
+    padding: 30px 50px;
+    font-size: large;
+    background-color: #fff;
+}

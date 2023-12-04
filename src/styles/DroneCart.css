@@ -1,0 +1,64 @@
+.DroneCart-container{
+    border: none;
+    background-color:  #E5E5E9;
+}
+.DroneCart{
+    margin: 40px 80px;
+    background-color: #fff;
+    padding: 50px;
+}
+.Continue-shopping{
+    background-color: #02ad35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin: 20px 0;
+    
+}
+.Continue-shopping >p{
+    padding: 20px 0;
+    color: #fff;
+    font-weight: 600;
+    
+}
+.Product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dcd6d6;
+    padding: 20px;
+}
+
+.Price-Quantity{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Updata-btn{
+    margin: 20px 0;
+    margin-left: 900px;
+    padding: 12px 19px;
+    background-color: #d76868;
+    border: none;
+}
+
+
+.Cart-totals{
+    margin-left: 650px;
+}
+.totals-cart{
+    padding: 20px 0;
+}
+.Subtotal{
+    padding: 20px 0;
+}
+.Shipping{
+    padding: 10px 0;
+}
+.proceed-btn{
+    padding: 20px 130px;
+    background-color: #e07575;
+    border: none;
+}

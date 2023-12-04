@@ -1,0 +1,27 @@
+.allDrone{
+    background-color: #FFFFDD;
+}
+.contents{
+    background-color: #FFFFDD;
+}
+
+.drone-content{
+    /* margin: 0 80px; */
+    padding: 30px 90px;
+    background-color: #FFFFDD;
+}
+.h3-text{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: bold;
+}
+
+.hr-all{
+    margin-left: 370px;
+        width: 38%;
+        margin-bottom: 35px;
+        color: #FF2B17;
+}
