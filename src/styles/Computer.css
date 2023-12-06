@@ -1,0 +1,11 @@
+h1 {
+    color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.computer-img>img {
+    padding: 10px 20px;
+}

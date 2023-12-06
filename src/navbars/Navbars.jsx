@@ -76,31 +76,46 @@ function Navbars() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <NavDropdown title="Mobile" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Apple</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Realma</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Samsung</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Tecno</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Oppo</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">TCL</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Lava</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Nokia</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">Vivo</NavDropdown.Item>
+                <Link to={`/mobile`}>
+                  <NavDropdown.Item href="#action/3.1">Apple</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">Realma</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">
+                    Samsung
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Tecno</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Oppo</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">TCL</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Lava</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Nokia</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.4">Vivo</NavDropdown.Item>
+                </Link>
               </NavDropdown>
+
               <NavDropdown title="Tablet" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Ipad</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Samsung</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Xiaomi</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Walton</NavDropdown.Item>
+                <Link to={`/tablet`}>
+                  <NavDropdown.Item href="#action/3.1">Ipad</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">
+                    Samsung
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Xiaomi</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Walton</NavDropdown.Item>
+                </Link>
               </NavDropdown>
+
               <NavDropdown title="Computer" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Desktop</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Laptop</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Monitor</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Component
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">UPS</NavDropdown.Item>
+                <Link to={`/computer`}>
+                  <NavDropdown.Item href="#action/3.1">
+                    Desktop
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">Laptop</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">
+                    Monitor
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">
+                    Component
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">UPS</NavDropdown.Item>
+                </Link>
               </NavDropdown>
               <NavDropdown title="Accessories" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">

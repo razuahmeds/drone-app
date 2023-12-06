@@ -104,7 +104,7 @@ function ToyDrones() {
               even go ahead and buy a drone, you can legally fly it wherever you
               want.
             </p>
-            <p>
+            {/* <p>
               Another thing just about laws in general with drones is that many
               times when you hear a lot of times about people getting busted for
               flying, and in illegal locations, they don’t get busted. Usually,
@@ -295,7 +295,7 @@ function ToyDrones() {
               time drawing. So make sure if you’re going to do an autonomous
               shot, make sure it’s the kind of shot where you have no obstacles.
               The fourth reason returned to home crash.
-            </p>{" "}
+            </p>{" "} */}
           </p>
         </div>
       </div>
